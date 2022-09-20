@@ -1,8 +1,4 @@
-# Project Title
-
-PHP 8.1.0-dev Backdoor Remote Code Execution
-
-## Description
+# PHP 8.1.0-dev Backdoor Remote Code Execution
 
 PHP verion 8.1.0-dev was released with a backdoor on March 28th 2021, but the backdoor was quickly discovered and removed. If this version of PHP runs on a server, an attacker can execute arbitrary code by sending the User-Agentt header with secret word zerodium.
 
